@@ -14,23 +14,22 @@ def run_quiz(questions):
             print("Wrong! The correct answer was", question["answer"], "\n")
     print(f"You got {score} out of {len(questions)} questions correct.")
     
-
 # List of quiz questions. Each question is a dictionary.
 questions = [
     {
-        "prompt": "What does the acronym HTML stand for?",
-        "options": ["A. Hyper Text Markup Language", "B. High Technical Markup Language", "C. Hyperlinks and Text Markup Language", "D. Home Tool Markup Language"],
+        "prompt": "What does the acronym JVM stand for ?",
+        "options": ["A. Java Virtual Machine", "B. Java Visual Machine", "C.JRE Virtual Machine", "D. JRE Visual Machine"],
         "answer": "A"
     },
     {
-        "prompt": "Which of the following programming languages is used for creating dynamic and interactive web pages?",
-        "options": ["A. Java", "B. Python", "C. JavaScript", "D. C++"],
+        "prompt": "what do we call locating or indentifying the bugs in softwae testing ?",
+        "options": ["A. Design", "B. Debugging", "C. Testing", "D. Coding"],
         "answer": "C"
     },
     {
-        "prompt": "What is the smallest prime number?",
-        "options": ["A. 1", "B. 2", "C. 3", "D. 5"],
-        "answer": "B"
+        "prompt": "The Sum Of The First Prime Numbers are?",
+        "options": ["A. 11", "B. 18", "C. 26", "D. 28"],
+        "answer": "D"
     },
     {
         "prompt": "What does the term API stand for in the context of programming?",
@@ -38,13 +37,13 @@ questions = [
         "answer": "B"
     },
     {
-        "prompt": "What does the term SQL stand for in the context of databases?",
-        "options": ["A. Structured Query Language", "B. Sequential Query Language", "C. Standard Query Language", "D. Server Query Language"],
-        "answer": "A"
+        "prompt": "which command is used to create a new table in SQL?",
+        "options": ["A. Build Table", "B. Create Table", "C. General Table", "D. None Of The Above"],
+        "answer": "B"
     },
     {
-        "prompt": "What does the acronym HTTP stand for in the context of web development?",
-        "options": ["A. Hyper Text Transfer Protocol", "B. High Technical Transfer Protocol", "C. Home Tool Transfer Protocol", "D. Hyperlinks and Text Transfer Protocol"],
+        "prompt": "why were cookies designed?",
+        "options": ["A. For server-side programming", "B. For Client-side programming", "C.Both a and b", "D. None"],
         "answer": "A"
     },
     {
@@ -53,19 +52,19 @@ questions = [
         "answer": "C"
     },
     {
-        "prompt": "Which of the following is not a valid loop statement in Python?",
+        "prompt": "Which of the following is not a valid loop statement in Java?",
         "options": ["A. for", "B. while", "C. loop", "D. do-while"],
         "answer": "C"
     },
     {
-        "prompt": "Which of the following is a popular version control system used in software development?",
-        "options": ["A. SVN", "B. CVS", "C. Git", "D. Mercurial"],
+        "prompt": "What is Git?",
+        "options": ["A. Text Editor", "B. Compiler", "C. Version Control system", "D. Operating System"],
         "answer": "C"
     },
     {
-        "prompt": "Which of the following data structures follows the Last-In-First-Out (LIFO) principle?",
+        "prompt": "Which of the following data structures follows the First-In-First-Out (FIFO) principle?",
         "options": ["A. Queue", "B. Stack", "C. Linked List", "D. Array"],
-        "answer": "B"
+        "answer": "A"
     },
 ]
 
